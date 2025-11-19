@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">MyPortfolio</div>
+
+        <ul id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>
+                I am a fictional web developer passionate about creating beautiful and functional websites.
+                Explore my work, learn about my journey, and feel free to reach out!
+            </p>
+            <button class="btn">Explore More</button>
+        </div>
+    </section>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="about-container">
+
+        <!-- TEXT -->
+        <div class="about-text">
+            <h3>Hello, I'm Sheetal Gayke</h3>
+
+            <p>
+                I am a passionate and imaginative web developer who loves building interactive,
+                visually engaging digital experiences. Although some details here are fictional,
+                they represent the creative and technical journey I aim for.
+            </p>
+
+            <p>
+                I enjoy combining clean design with efficient code. My journey includes working on
+                innovative projects, experimenting with UI/UX concepts, and creating responsive
+                websites that bring ideas to life.
+            </p>
+
+            <p>
+                When I'm not coding, I explore new technologies, improve my workflow, and keep
+                expanding my knowledge in the world of software engineering.
+            </p>
+        </div>
+
+        <!-- IMAGE -->
+        <div class="about-image">
+            <img src="image/Sheetal.jpg" alt="Sheetal Gayke">
+        </div>
+
+    </div>
+</section>
+
+
+
+
+   <!-- PROJECT SECTION -->
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+            <h3>Enhanced Multi-layer Authentication for Intrusion Detection in Cloud Storage</h3>
+            <p>
+                Developed an AI-driven Intrusion Detection & Prevention System (IDPS) with 
+                multi-factor authentication and machine learning to secure cloud access. 
+                Implemented Random Forest for anomaly detection, real-time monitoring, 
+                and automated alert notifications. Built interactive Power BI dashboards 
+                for threat visualization and user activity tracking.
+            </p>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Power BI</span>
+                <span>Cloud Security</span>
+            </div>
+
+            <a href="#" class="btn-project">View Project</a>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+            <h3>Customer Churn Analysis & Prediction Dashboard</h3>
+            <p>
+                Built an end-to-end churn prediction system using Python (Pandas, Scikit-learn)
+                and Power BI. Performed EDA, feature engineering, and trained ML models 
+                including Logistic Regression & Random Forest. Designed an interactive 
+                dashboard showing churn KPIs, predictions, and business insights.
+            </p>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>Scikit-Learn</span>
+                <span>Power BI</span>
+            </div>
+
+            <a href="#" class="btn-project">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- CONTACT SECTION -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <p><strong>Name:</strong> Sheetal Gayke</p>
+            <p><strong>Location:</strong> Pune, Maharashtra, India</p>
+            <p><strong>Email:</strong> <a href="mailto:shitalgayke25032003@gmail.com">shitalgayke25032003@gmail.com</a></p>
+            <p><strong>Phone:</strong> +91 93226 87459</p>
+
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/sheetalgayke/" class="contact-btn">LinkedIn</a>
+                <a href="https://github.com/sheetalgayke" class="contact-btn">GitHub</a>
+            </div>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="contact-submit">Send Message</button>
+        </form>
+
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Sheetal Gayke | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
